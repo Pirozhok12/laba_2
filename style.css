@@ -1,0 +1,35 @@
+.radio input[type="radio"] {
+  display: none;
+}
+
+.radio-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  width: 385px;
+  background-color: darkgrey;
+  padding: 5px 5px;
+  margin: auto;
+}
+
+.radio span {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+.radio:nth-child(1) { order: 3; background: red;} 
+.radio:nth-child(2) { order: 4; background: orange;} 
+.radio:nth-child(3) { order: 1; background: green;} 
+.radio:nth-child(4) { order: 2; background: wheat;} 
+
+
+ .radio input[type="radio"]:checked + span {
+  background-color: black; /* зелёный */
+  color: white;
+  border-color: yellow;
+}

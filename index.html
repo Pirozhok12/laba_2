@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Laba2</title>
+
+    <style>
+
+      *{
+          font-size: x-large;
+      } 
+
+      img {
+        float: right;
+        margin: 10px 20px 10px 0;
+        width: 40%;
+      }
+
+      #title {
+        position: fixed;
+        bottom: 10px;
+        right: 20px;
+        background-color: gray;
+        color: white;
+        padding: 5px 10px;
+        font-size: 14px;
+      }
+    </style>
+</head>
+
+<body>
+
+  <h1 id="title">Лабораторна робота №2</h1>
+  <div style="text-align: center; font-size: larger; font-weight: bold;">
+    Каскадні таблиці стилів
+  </div>
+
+  <br>
+
+  <img src="flex2.png" alt="flex2">
+
+  <p style="text-indent: 30px;">
+    Додати на сторінку перемикачі (елементи radio), оформлення яких залежить від стану.
+    Додати на сторінку контейнер з елементами, розміщеними згідно малюнку. Зверніть увагу, що в HTML-коді 
+    елементи розміщені по порядку "1", "2", "3", "4". А за допомогою Flexbox і CSS-властивості order, 
+    початковий порядок має бути змінений на той, що відповідає наведеному зображенню.
+  </p>
+
+    <br>
+
+  <div class="radio-container">
+    <label class="radio"><input type="radio" name="option" value="1"><span>1</span></label>
+    <label class="radio"><input type="radio" name="option" value="2"><span>2</span></label>
+    <label class="radio"><input type="radio" name="option" value="3"><span>3</span></label>
+    <label class="radio"><input type="radio" name="option" value="4"><span>4</span></label>
+  </div>
+
+
+
+</body>
+</html>
